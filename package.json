@@ -1,0 +1,15 @@
+{
+  "name": "canyon",
+  "private": true,
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "clean": "node ./scripts/clean.mjs",
+    "preinstall": "node ./scripts/check.mjs"
+  },
+  "packageManager": "pnpm@8.15.6",
+  "devDependencies": {
+    "turbo": "latest",
+    "typescript": "latest"
+  }
+}
