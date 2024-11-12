@@ -1,8 +1,0 @@
-{
-  "builds": [
-    {
-      "src": "packages/canyon-ut/package.json",
-      "use": "@vercel/next"
-    }
-  ]
-}
