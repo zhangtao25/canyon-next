@@ -1,9 +1,9 @@
 {
-  "version": 2,
   "builds": [
     {
       "src": "packages/canyon-ut/package.json",
       "use": "@vercel/next"
     }
-  ]
+  ],
+  "rootDirectory": "packages/canyon-ut"
 }
