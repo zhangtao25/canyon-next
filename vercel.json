@@ -5,11 +5,5 @@
       "src": "packages/canyon-collect/dist/main.js",
       "use": "@vercel/node"
     }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "packages/canyon-collect/dist/main.js"
-    }
   ]
 }
