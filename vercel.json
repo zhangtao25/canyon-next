@@ -3,16 +3,7 @@
   "builds": [
     {
       "src": "packages/canyon-ut/package.json",
-      "use": "@vercel/node",
-      "config": {
-        "distDir": "packages/canyon-ut/dist"
-      }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/packages/canyon-ut/dist/$1"
+      "use": "@vercel/next"
     }
   ]
 }
