@@ -2,14 +2,14 @@
   "version": 2,
   "build": [
     {
-      "src": "dist/main.js",
+      "src": "packages/canyon-collect/dist/main.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "dist/main.js"
+      "dest": "packages/canyon-collect/dist/main.js"
     }
   ]
 }
